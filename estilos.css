@@ -95,11 +95,22 @@ table {
 }
 
 * { box-sizing: border-box; }
- body 
- { font-family: Arial, sans-serif; margin: 24px; }
-  .sessao-info, .sessao-material 
-  { padding: 16px; border: 1px solid #789; background: #edf4fa; }
+ 
+  .sessao-info, .sessao-material {
+     padding: 16px;
+     border: 1px 
+     solid #789; 
+     background: #edf4fa; 
+    }
     
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    }
+
 .sessao {
     display: flex;
     flex-direction: row;
@@ -156,4 +167,40 @@ table {
     .sessao-material {
         flex-basis: auto;
     }
+}
+
+/* Cabeçalho principal */
+header {
+    background-color: #0a0e5a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+
+header h1 {
+    color: white;
+    margin: 10px 0 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e67e22;
+}
+
+/* Conteúdo das páginas */
+main {
+    margin: 30px;
 }
