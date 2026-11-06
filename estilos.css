@@ -283,3 +283,13 @@ button:hover,
 input[type="submit"]:hover {
     background-color: #e67e22;
 }
+
+/* Painel geral de todas as páginas */
+.painel-geral {
+    background-color: #f0f4f8;
+    border: 2px solid #080c42;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 25px;
+    min-height: calc(100vh - 40px);
+}
